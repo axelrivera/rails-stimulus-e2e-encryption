@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-ruby "2.6.5"
+ruby "2.7.8"
 
 # Core
 gem "rails", "~> 6.0.3"
@@ -26,6 +26,7 @@ group :development, :test do
   gem "rubocop", require: false
   gem "rubocop-rails", require: false
   gem "rubocop-rspec-focused", require: false
+  gem "dotenv-rails", require: false
 end
 
 group :development do
